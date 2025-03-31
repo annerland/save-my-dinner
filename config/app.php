@@ -15,6 +15,8 @@ return [
 
     'name' => env('APP_NAME', 'Laravel'),
 
+    'openAI' => env('OPENAI_API_KEY',''),
+
     /*
     |--------------------------------------------------------------------------
     | Application Environment
